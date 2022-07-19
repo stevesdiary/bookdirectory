@@ -1,0 +1,34 @@
+{
+  "name": "booklib.",
+  "version": "1.0.0",
+  "description": "book directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevesdiary/bookdirectory.git"
+  },
+  "keywords": [
+    "book",
+    "node",
+    "API",
+    "postman",
+    "CRUD"
+  ],
+  "author": "Stephen Oyeyemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevesdiary/bookdirectory/issues"
+  },
+  "homepage": "https://github.com/stevesdiary/bookdirectory#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.8.0"
+  }
+}
